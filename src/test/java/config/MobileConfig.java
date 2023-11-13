@@ -11,7 +11,7 @@ public interface MobileConfig extends Config {
     String getApp();
 
     @Key("device")
-    @DefaultValue("Samsung S21")
+    @DefaultValue("Samsung Galaxy S22 Ultra")
     String getDevice();
 
     @Key("os_version")
