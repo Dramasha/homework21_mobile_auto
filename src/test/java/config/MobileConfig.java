@@ -11,10 +11,10 @@ public interface MobileConfig extends Config {
     String getApp();
 
     @Key("device")
-    @DefaultValue("Samsung A52")
+    @DefaultValue("Samsung S21")
     String getDevice();
 
     @Key("os_version")
-    @DefaultValue("11.0")
+    @DefaultValue("12.0")
     String getVersion();
 }
