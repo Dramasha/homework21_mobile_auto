@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Nov 13 15:10:11 MSK 2023","Mon Nov 13 15:10:54 MSK 2023","42698","","tests.SearchTest","","tests.SearchTest","successfulSearchTest","successfulSearchTest()",""
