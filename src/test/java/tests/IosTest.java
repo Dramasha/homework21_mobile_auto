@@ -21,14 +21,14 @@ public class IosTest extends BaseTest {
             $(id("Text Input")).click();
         });
 
-        step("Input in field 'Enter a text' text 'I want to learn Java quite good' and press Enter", () -> {
-            $(id("Text Input")).sendKeys("I want to learn Java quite good");
+        step("Input in field 'Enter a text' text 'I believe, I can fly' and press Enter", () -> {
+            $(id("Text Input")).sendKeys("I believe, I can fly");
             $(id("Text Input")).pressEnter();
         });
 
         step("Checking the display of the result with the specified text", () -> {
             assertThat($(id("Text Output")).getText())
-                    .isEqualTo("I want to learn Java quite good");
+                    .isEqualTo("I believe, I can fly");
         });
     }
 }
