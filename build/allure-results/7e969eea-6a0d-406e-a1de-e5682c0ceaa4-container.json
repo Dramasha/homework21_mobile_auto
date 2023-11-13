@@ -1,0 +1,1 @@
+{"uuid":"7e969eea-6a0d-406e-a1de-e5682c0ceaa4","name":"AndroidTest","children":["02e0bf03-c323-49e7-beba-dd7a7f920582"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1699881679937,"stop":1699881679948}],"afters":[],"start":1699881679912,"stop":1699881731560}
